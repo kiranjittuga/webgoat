@@ -21,6 +21,7 @@ jobs:
       - store_artifacts:
           path: reports/dependency-check-report.csv
           destination: depcheck-artifact
+          
   workflows:
   version: 2
   webgoat:
