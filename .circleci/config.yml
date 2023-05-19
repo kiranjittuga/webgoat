@@ -22,7 +22,7 @@ jobs:
           path: reports/dependency-check-report.csv
           destination: depcheck-artifact
           
-  workflows:
+workflows:
   version: 2
   webgoat:
     jobs:
